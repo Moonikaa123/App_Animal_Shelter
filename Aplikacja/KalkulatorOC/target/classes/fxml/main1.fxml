@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainPaneController">
+   <children>
+      <Label layoutX="310.0" layoutY="30.0" prefHeight="56.0" prefWidth="252.0" text="WITAJ W PROGRAMIE!">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="385.0" layoutY="86.0" prefHeight="37.0" prefWidth="70.0" text="MENU">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <VBox layoutX="152.0" layoutY="158.0" prefHeight="330.0" prefWidth="522.0">
+         <children>
+            <Button fx:id="ewidencjaPracownikow" graphicTextGap="5.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="600.0" text="Ewidencja pracowników">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ewidencjaCzasuPracy" mnemonicParsing="false" prefHeight="90.0" prefWidth="600.0" text="Ewidencja czasu pracy">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ewidencjaZwierzat" mnemonicParsing="false" prefHeight="90.0" prefWidth="600.0" text="Ewidencja zwierząt">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ewidencjaKosztow" mnemonicParsing="false" prefHeight="90.0" prefWidth="600.0" text="Ewidencja kosztów i przychodów">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ewidencjaZakupu" mnemonicParsing="false" prefHeight="90.0" prefWidth="600.0" text="Ewidencja zakupu i wydania towaru">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

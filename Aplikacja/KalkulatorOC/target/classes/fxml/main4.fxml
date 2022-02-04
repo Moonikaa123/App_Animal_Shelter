@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainPaneController4">
+    <children>
+      <Label alignment="CENTER" layoutX="280.0" layoutY="37.0" prefHeight="54.0" prefWidth="266.0" text="Ewidencja zwierząt">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="powrot3" layoutX="28.0" layoutY="393.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="111.0" text="POWRÓT" />
+      <VBox layoutX="190.0" layoutY="126.0" prefHeight="230.0" prefWidth="452.0">
+         <children>
+            <Button fx:id="dostepneZwierzeta" mnemonicParsing="false" prefHeight="71.0" prefWidth="456.0" text="Wyświetl dostępne zwierzęta">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="dodajZwierze" mnemonicParsing="false" prefHeight="71.0" prefWidth="456.0" text="Dodaj zwierzę">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="usunZwierze" mnemonicParsing="false" prefHeight="71.0" prefWidth="456.0" text="Usuń zwierzę">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>

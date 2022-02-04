@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hibernate-configuration>
+    <session-factory >
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/new?serverTimezone=Europe/Warsaw</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">admin</property>
+
+        <mapping class="Entities.Pracownik"/>
+        <mapping class="Entities.Zwierze"/>
+        <mapping class="Entities.Koszty"/>
+        <mapping class="Entities.Towar"/>
+        <mapping class="Entities.Czas"/>
+
+        <mapping class="Entities.Plec"/>
+        <mapping class="Entities.Stanowisko"/>
+
+    </session-factory>
+</hibernate-configuration>
